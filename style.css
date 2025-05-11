@@ -1,0 +1,239 @@
+
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.container{
+    background-color: bisque;
+    min-height: 40vh;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.inner-box{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.days{
+    font-weight: 550;
+    color: rgb(53, 49, 49);
+}
+
+.time{
+    font-family: "Digital-7 Mono", sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h2{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: red;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.days ul li {
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0;
+    text-align: center;
+}
+
+.dot.active {
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    25% {
+        opacity: 0;
+    }
+}
+
+.active-day {
+    color: rgb(165, 14, 14);
+    font-family: "Lilita One", sans-serif;
+    font-weight: 300;
+}
+
+
+@media (max-width: 768px) {
+    .time {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        min-height: 50vh;
+        width: 90%;
+    }
+
+    .inner-box {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .time {
+        font-size: 1.2rem;
+    }
+
+    .container {
+        min-height: 60vh;
+        width: 95%;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .days ul li {
+        padding: 0 5px;
+    }
+
+    .dot.active {
+        animation: blink 1.5s linear infinite;
+    }
+} 
+
+
+/* THIS IS THE ANOTHER RESPONSIVE CSS CODE FOR THE CLOCK */
+
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+}
+
+
+h2 {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 500;
+  color: red;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+  font-size: 2rem;
+}
+
+.time {
+  font-family: "Digital-7 Mono", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.days {
+  font-weight: 550;
+  color: rgb(53, 49, 49);
+}
+
+.days ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px; 
+  padding: 0;
+  margin: 0;
+}
+
+.days ul li {
+  flex: 1 1 30%; 
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.active-day {
+  color: rgb(165, 14, 14);
+  font-family: "Lilita One", sans-serif;
+  font-weight: 600;
+}
+
+.dot.active {
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  25% {
+    opacity: 0;
+  }
+}
+
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .time {
+    font-size: 2rem;
+  }
+
+  .days ul li {
+    font-size: 0.85rem;
+    padding: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .time {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+  .days ul {
+    gap: 8px;
+  }
+
+  .days ul li {
+    font-size: 0.75rem;
+    flex: 1 1 45%;
+  }
+} */
