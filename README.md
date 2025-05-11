@@ -6,7 +6,7 @@ This is a **Digital Clock** built using **HTML**, **CSS**, and **JavaScript**. T
 
 ## 🔗 Live Demo
 
-👉 [Click here to view the live site](https://your-username.github.io/digital-clock/)  
+👉 [Click here to view the live site](https://nikitagupta-dev.github.io/Digital-Clock/)  
 
 
 ---
@@ -42,6 +42,6 @@ This project was built to:
 ---
 
 ## 📸 Screenshot
-(![Digital Clock ScreenShot](image.png))  
+![Digital Clock ScreenShot](image.png)
 ---
 
